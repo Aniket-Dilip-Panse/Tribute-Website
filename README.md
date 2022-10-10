@@ -9,5 +9,7 @@
     <link rel="stylesheet" href="color.css" type="text/css">
 </head>
 <body>
-  <iframe src="https://github.com/Aniket-Dilip-Panse/Tribute-Website/blob/main/index.html"></iframe>
+  <iframe src="https://github.com/Aniket-Dilip-Panse/Tribute-Website/blob/main/index.html">
+  Website preview  
+  </iframe>
 </body>
