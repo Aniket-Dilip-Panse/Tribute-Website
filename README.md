@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="color.css" type="text/css">
-    <title>Tribute Page</title>
 </head>
 <body>
-  <iframe src=""></iframe>
+  <iframe src="https://github.com/Aniket-Dilip-Panse/Tribute-Website/blob/main/index.html"></iframe>
 </body>
