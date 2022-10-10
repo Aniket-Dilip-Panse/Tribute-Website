@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d3c9b1;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+header{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    /* background:linear-gradient(30deg,rgb(222, 82, 82),rgb(255, 81, 0)); */
+    /* background-color: orange; */
+    background-color:#c0a669;
+    align-items: justify;
+}
+header p{
+    font-style: italic;
+    color:rgb(250, 250, 250);
+    font-weight:bold;
+    width:calc(100 - 1rem);
+}
+.container1{
+    background-color:#d3c9b1;
+    margin-top: 5px;
+    display: flex;
+}
+#maharaj{
+    float: left;
+    height: auto;
+}
+div > p{
+
+   font-family: 'Rajdhani', sans-serif;
+   font-weight: bold;
+   padding-left: 10px;
+}
+#early-life{
+    text-align: center;
+    background-color: #c0a669;
+    font-family: 'Rajdhani', sans-serif;
+    color: aliceblue;
+}
+.early-life{
+    background-color:#d3c9b1;
+    display: flex;
+}
+#shivneri-fort{
+   width: 100px;
+}
+#background{
+    padding:5px;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #d3c9b1;
+    font-size:25px;
+}
+.container3{
+    background-color: #d3c9b1;
+}
+#map{
+    float: right;
+    width:220px;
+    height:auto;
+}
+#conflict{
+    background-color:#c0a669;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Rajdhani', sans-serif;
+}
+.para{
+    background-color: #d3c9b1;
+    padding:5px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+#combat{
+    background-color: #d3c9b1;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#fort{
+    width: 330px;
+    height:300px;
+}
+.afzal{
+    background-color: #d3c9b1;
+}
+/* .left:hover{
+    background-color: #a8883d;
+    transform: rotate(10deg);
+} */
+.Panhala-battle >h2{
+    background-color:#d3c9b1;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+.Panhala-battle >p{
+    background-color:#d3c9b1;
+}
+.Pavankhind-battle >h2{
+    background-color:#d3c9b1;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+.Pavankhind-battle >p{
+    background-color:#d3c9b1;
+}
+.conflict-mughals{
+    background-color:#d3c9b1;
+}
+.attack-shaista-khan{
+    background-color:#d3c9b1;
+}
+.attack-shaista-khan > h2{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+#shaista{
+    float: right;
+    width:350px;
+    height: auto;
+    margin:10px;
+}
+.attack-shaista-khan >p{
+    padding: 5px;
+}
+.treaty-of-Purandar >h2{
+    padding: 10px;
+}
+#treaty{
+    float: right;
+    width: 280px;
+    height: auto;
+}
+.treaty-of-Purandar >p{
+    padding:5px;
+    clear: left;
+}
+#escape{
+    float: right;
+    width: 280px;
+    height: auto; 
+}
+
+.Agra-escape > h2,p{
+ margin: 5px;
+}
+
+.peace >h2,p{
+    padding: 5px;
+}
+#vijay{
+    background-color:#c0a669;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Rajdhani', sans-serif; 
+}
+#statue{
+    float: right;
+}
+#rajyabhishek{
+    float: right;
+}
+#sambhaji-maharaj{
+    float: right;
+    height:290px;
+}
+#center{
+    text-align: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: rgb(233, 196, 149);
+    
+}
+.bold{
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(166, 169, 169);
+}
+#fort{
+    float: right;
+}
+#mudra{
+  float: right;
+  width: 150px;
+  height: auto;
+}
+#mountain , #navy{
+    float: right;
+    width: 200px;
+}
+.governace >h2{
+    padding: 10px;
+}
+.warfare >h2{
+    padding: 10px;
+}
+#meeting{
+    float: right;
+    height: 300px;
+}
+.legacy >h2{
+    padding: 10px;
+}
+footer >p{
+    background-color: beige;
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px blueviolet;
+}
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    
+    h1{
+        letter-spacing: 2px;
+        font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    }
+    p{
+        line-height: 1.5;
+        /* font-size: max(1.2rem, 1.2vw); */
+        font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    }
+    header{
+      width: 100%;
+    }
+    .container1,.early-life{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+       width: 50%;
+       height: auto;
+       align-items: center; 
+    }
+    p{
+        font-size: clamp(1rem, 2.5vw, 2rem); 
+    }
+}
+
+/* Small screen devices (600px and above) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium screen devices (768px and above) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Big screen devices (889px and above) */
+/* @media only screen and (min-width: 889px) {...} */
+
+/* Extra big screen devices (1200px and above) */
+/* @media only screen and (min-width: 1200px) {...} */
